@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🧠 Memory Card Game</h1>
+    <div class="info">
+      <p>⏱ Time: <span id="timer">0</span>s</p>
+      <p>🎯 Moves: <span id="moves">0</span></p>
+      <button id="restart">🔄 Restart</button>
+      <button id="dark-mode-toggle">🌗 Dark Mode</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="result hidden" id="result">
+      <h2>🎉 You Won!</h2>
+      <p>Total Time: <span id="final-time"></span>s</p>
+      <p>Total Moves: <span id="final-moves"></span></p>
+      <button id="play-again">🔁 Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
